@@ -1,0 +1,186 @@
+header {
+	height: 600px;
+	background-image: url("images/coffee_cheesecake.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.logo {
+	width: 400px;
+	margin-top: 230px;
+	margin-left: 400px;
+
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	display: block;
+	top: 0px;
+	font-family: helvetica;
+} 
+
+body {
+	position: relative;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:transparent ;
+}
+
+li {
+    float: left;
+    padding: 5px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: white;
+    border-radius: 7px;
+    color: #1f8dd6;
+}
+
+.snapshot {
+	height: 400px;
+	background-image: url('images/meg_pour.jpg');
+	border-top: 5px black solid;
+}
+
+.snapshot_info {
+	background-color: rgba(255, 255, 255, 0.6);
+	margin-left: 200px;
+	margin-right: 200px;
+	font-family: helvetica;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.social_container {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about_container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.project_container {
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+  color: #663366;
+}
+
+section.module h3 {
+/*  margin-bottom: 40px;*/
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  color: #663366;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Roboto Slab", serif;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 30px 0;
+}
+section.module.parallax {
+  height: 400px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.other_headers {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: rgba(51, 0, 51, 0.8);
+  font-size: 100px;
+  line-height: 500px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  margin-top: 75px;
+  font-family: "Roboto Slab", serif;
+  color: rgba(255, 255, 255, 0.8);
+/*  vertical-align: middle;*/
+  line-height: 400px;
+  font-size: 70px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.name_small {
+  font-family: "Roboto Slab", serif; 
+  
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.project_img {
+  width: 600px;
+  border: 3px black solid;
+}
+
+.project_img_two {
+  width: 420px;
+  height: 200px;
+  border: 3px black solid;
+}
+
+section.module.parallax-1 {
+  background-image: url("images/meg_ross.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("");
+}
+section.module.parallax-3 {
+  background-image: url("");
+}
+
+
+
