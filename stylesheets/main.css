@@ -1,14 +1,14 @@
 header {
-	height: 450px;
+	height: 620px;
 	/*background-image: url("images/coffee_cheesecake.jpg");*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-top: -8px;
 	margin-left: -8px;
 	margin-right: -8px;
-  margin-bottom: 80px;
+/*  margin-bottom: 80px;*/
 /*  border-bottom: 6px #233146 solid;*/
-  background-color: white; 
+  background-color: #233146; 
 }
 
 /*body {
@@ -16,9 +16,9 @@ header {
 }*/
 
 .logo {
-	width: 570px;
-	margin-top: 6%;
-	margin-left: 28%;
+	width: 640px;
+	margin-top: 7%;
+	margin-left: 25%;
   border-radius: 10px;
 /*  border: 10px solid #a87b4f;*/
 /*  opacity: .7;*/
@@ -78,6 +78,41 @@ li a:hover {
   margin: 0 auto;
 }
 
+.slogan {
+  text-align: center;
+}
+
+.est {
+  width: 150px;
+}
+
+.descript {
+  margin-top: -10px;
+  font-family: 'Old Standard TT', serif;
+  color: #65b2a4;
+}
+
+.slogan h1 {
+  margin-bottom: 0px;
+  font-family: 'Glegoo', serif;
+}
+
+.define {
+  font-family: 'Lato', sans-serif;
+  line-height: 10px;
+}
+
+.slogan_quote {
+  font-family: 'Old Standard TT', serif;
+  color: #233146;
+}
+
+.coffee_types p {
+
+}
+
+
+
 
 section.module:last-child {
   margin-bottom: 0;
@@ -85,7 +120,7 @@ section.module:last-child {
 section.module h2 {
   font-family: 'Glegoo', serif;
   font-size: 30px;
-  color: #65b2a4;
+  color: #233146;
 }
 
 section.module h3 {
@@ -97,7 +132,7 @@ section.module h3 {
 }
 
 section.module p {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 15px;
   font-weight: 300;
   font-family: 'Lato', sans-serif;
@@ -106,7 +141,7 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 30px 0;
+  /*padding: 30px 0;*/
   text-align: center;
 }
 
@@ -122,6 +157,7 @@ section.module.parallax {
 
 .name {
   margin-top: 75px;
+  margin-bottom: -100px;
   font-family: 'Glegoo', serif;
   color: rgba(255, 255, 255, 0.8);
   line-height: 280px;
@@ -173,7 +209,9 @@ span {
 }
 
 #F {
-  width: 170px;
+  width: 250px;
+  margin-top: 100px;
+  margin-left: 20px;
 }
 
 #menu_bean {
@@ -190,34 +228,22 @@ span {
 
 .column_one {
 	float: left;
-  margin-left: 150px;
+  margin-left: 300px;
 }
 
 .column_one p {
-  line-height: 5px;
+  line-height: 8px;
 }
 
 .column_two {
-	float: left;
-  margin-left: 100px;
+	float: right;
+  margin-right: 270px;
+  width: 250px;
 }
 
 .column_two p {
-  line-height: 5px;
+/*  line-height: 5px;*/
 }
-
-.column_three {
-  width: 450px;
-  float: right;
-  margin-right: 130px;
-
-}
-
-#drink_label {
-  width: 100px;
-  margin-left: 270px;
-}
-
 
 .footer {
   font-family: "Roboto Slab", serif;
@@ -231,35 +257,6 @@ span {
 }
 section.module.parallax-foot {
   background-image: url("images/storefront.png");
-}
-
-.slogan {
-  font-family: "Roboto Slab", serif;
-  text-align: center;
-  color: #233146;
-}
-
-.est {
-  width: 150px;
-}
-
-.descript {
-  margin-top: -30px;
-  font-family: 'Old Standard TT', serif;
-  color: #65b2a4;
-}
-
-.slogan h1 {
-  margin-bottom: 0px;
-  font-family: 'Glegoo', serif;
-}
-
-.define {
-  font-family: 'Lato', sans-serif;
-}
-
-.slogan_quote {
-  font-family: 'Old Standard TT', serif;
 }
 
 #icon {
@@ -309,8 +306,9 @@ section.module.parallax-foot {
 footer {
   height: 70px;
   margin-bottom: -8px;
-  margin-left: -12px;
-  margin-right: -12px;
+  margin-top: 20px;
+/*  margin-left: -10px;
+  margin-right: 0px;*/
   border: 5px solid #233146;
   background-color: #233146 ;
   display: inline-block;
@@ -345,9 +343,8 @@ header {
   margin-top: -8px;
   margin-left: -8px;
   margin-right: -8px;
-  margin-bottom: 80px;
 /*  border-bottom: 6px #233146 solid;*/
-  background-color: white; 
+  background-color: #233146; 
 }
 
 /*body {
@@ -356,8 +353,8 @@ header {
 
 .logo {
   width: 250px;
-  margin-top: 23%;
-  margin-left: 18%;
+  margin-top: 8%;
+  margin-left: 15%;
   border-radius: 10px;
 /*  border: 10px solid #a87b4f;*/
 /*  opacity: .7;*/
@@ -468,32 +465,32 @@ section.module:last-child {
 }
 section.module h2 {
   font-family: 'Glegoo', serif;
-  font-size: 30px;
+  font-size: 20px;
   color: #65b2a4;
 }
 
 section.module h3 {
 /*  margin-bottom: 40px;*/
   font-family: 'Glegoo', serif;
-  font-size: 20px;
+  font-size: 18px;
   color: #65b2a4;
 }
 
 section.module p {
   margin-bottom: 40px;
-  font-size: 15px;
-  font-weight: 300;
+  font-size: 5px;
+  /*font-weight: 300;*/
   font-family: 'Lato', sans-serif;
 }
 section.module p:last-child {
   margin-bottom: 0;
 }
 section.module.content {
-  padding: 30px 0;
+  /*padding: 30px 0;*/
   text-align: center;
 }
 section.module.parallax {
-  height: 500px;
+  height: 200px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -506,8 +503,8 @@ section.module.parallax {
   margin-top: 75px;
   font-family: 'Glegoo', serif;
   color: rgba(255, 255, 255, 0.8);
-  line-height: 400px;
-  font-size: 100px;
+  line-height: 80px;
+  font-size: 30px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
@@ -516,18 +513,18 @@ section.module.parallax {
 
 section.module.parallax-1 {
   background-image: url("images/meg_ross.jpg");
-  border-top: 8px #dbcfbf solid;
-  border-bottom: 8px #dbcfbf solid;
+  border-top: 5px #dbcfbf solid;
+  border-bottom: 5px #dbcfbf solid;
 }
 section.module.parallax-2 {
   background-image: url("images/coffee_wood_sneak.png");
-  border-top: 8px #dbcfbf solid;
-  border-bottom: 8px #dbcfbf solid;
+  border-top: 5px #dbcfbf solid;
+  border-bottom: 5px #dbcfbf solid;
 }
 section.module.parallax-3 {
   background-image: url("images/storefront.png");
-  border-top: 8px #dbcfbf solid;
-  border-bottom: 8px #dbcfbf solid;
+  border-top: 5px #dbcfbf solid;
+  border-bottom: 5px #dbcfbf solid;
 }
 
 .menu_container {
@@ -604,6 +601,7 @@ section.module.parallax-foot {
 .map {
   width: 500px;
   border: 5px #a87b4f solid;
+  margin-bottom: 20px;
 }
 
 .top_add {
@@ -636,12 +634,11 @@ section.module.parallax-foot {
 footer {
   height: 70px;
   margin-bottom: -8px;
-  margin-left: -12px;
-  margin-right: -12px;
   border: 5px solid #233146;
   background-color: #233146 ;
   display: inline-block;
   width: 100%;
+  position: fixed;
 }
 
 .copyright {
@@ -658,6 +655,11 @@ span {
 .foot_add {
   color: #233146;
   font-family: 'Lato', sans-serif;
+}
+
+#about_p {
+  font-size: 15px;
+  color: #233146;
 }
 
 
